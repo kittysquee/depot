@@ -71,5 +71,4 @@ class ProductTest < ActiveSupport::TestCase
     product.title = "Ruby Programming"
     assert product.valid?
   end
-
 end
